@@ -242,6 +242,13 @@ body {
   animation-duration: 100ms;
   animation-fill-mode: both;
 }
+.animate-squish-reverse {
+  will-change: transform, opacity;
+  animation-name: animate-squish;
+  animation-duration: 100ms;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
 .animate-squish-barbar {
   will-change: transform, opacity;
   animation-name: animate-squish-barbar;
